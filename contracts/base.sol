@@ -1,11 +1,11 @@
 /**
  *
  *
-   Willie Nelson Base Fan Club
-   $WILLIE on Base
-   https://WillieClub.org
-   https://x.com/WillieClub
-   https://t.me/WillieClub
+   UnderDawg Base Fan Club
+   $DAWG on Base
+   https://DawgClub.org
+   https://x.com/DawgClub
+   https://t.me/DawgClub
 
 
    Contract features:
@@ -1143,7 +1143,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
     ) external;
 }
 
-contract Willie is ERC20, Ownable {
+contract Dawg is ERC20, Ownable {
     using SafeMath for uint256;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
@@ -1152,7 +1152,7 @@ contract Willie is ERC20, Ownable {
         address(0x000000000000000000000000000000000000dEaD);
 
     string public exchangeLink = "https://app.uniswap.or/swap";
-    string public websiteLink = "https://willie.club";
+    string public websiteLink = "https://dawg.club";
 
     address public communityWallet;
     address public marketingWallet;
@@ -1206,7 +1206,7 @@ contract Willie is ERC20, Ownable {
         address indexed oldWallet
     );
 
-    constructor() ERC20("Willie Nelson Base Fan Club", "WILLIE") {
+    constructor() ERC20("UnderDawg Base Fan Club", "DAWG") {
         uniswapV2Router = IUniswapV2Router02(
             0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24
         );

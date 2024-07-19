@@ -27,7 +27,7 @@ class MemeTypeController extends Controller
     public function show(MemeType $memeType)
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-willie.png');
+        $image = url('img/og-dawg.png');
 
         return view('pages.memetype', [
             'memeType' => $memeType,
@@ -37,7 +37,7 @@ class MemeTypeController extends Controller
             'image' => $image,
             'content' => $memeType->content,
             'canonical' => env('APP_URL') . $memeType->getPathAttribute(),
-            'ogimage' => env('APP_URL') . '/img/og-willie.png',
+            'ogimage' => env('APP_URL') . '/img/og-dawg.png',
         ]);
     }
 

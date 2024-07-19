@@ -6,10 +6,10 @@
                     <div class="mx-auto max-w-2xl lg:max-w-5xl">
                         <div class="flex flex-col items-center justify-between gap-6 sm:flex-row">
                             <div class="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                            <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="https://t.me/SolWillie">Telegram</a>
-                                <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="https://x.com/WillieSolana">Twitter</a>
+                            <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="https://t.me/SolDawg">Telegram</a>
+                                <a class="transition hover:text-teal-500 dark:hover:text-teal-400" href="https://x.com/DawgSolana">Twitter</a>
                             </div>
-                            <p class="text-sm text-zinc-400 dark:text-zinc-500">© <!-- -->2024<!-- --> WillieClub.org. No rights reserved.</p>
+                            <p class="text-sm text-zinc-400 dark:text-zinc-500">© <!-- -->2024<!-- --> DawgClub.org. No rights reserved.</p>
                         </div>
                     </div>
                 </div>

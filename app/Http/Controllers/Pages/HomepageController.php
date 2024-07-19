@@ -11,13 +11,13 @@ class HomepageController extends Controller
     public function __invoke(Request $request)
     {
         // $image = Image::find(43)->url;
-        $image = url('img/og-willie.png');
+        $image = url('img/og-dawg.png');
 
         return view('index', [
-            'title' => 'Blockchain $WILLIE',
-            'description' => 'Find out more about Blockchain $WILLIE, a leading meme coin on the Solana Bloackchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
+            'title' => 'Blockchain $DAWG',
+            'description' => 'Find out more about Blockchain $DAWG, a leading meme coin on the Solana Bloackchain for we are all Bob. I am Bob. You are Bob. We are all Bob.',
             'canonical' => route('home'),
-            'ogimage' => $image === null ? url('img/og-willie.png') : $image,
+            'ogimage' => $image === null ? url('img/og-dawg.png') : $image,
         ]);
     }
 }
