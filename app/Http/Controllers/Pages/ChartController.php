@@ -14,8 +14,8 @@ class ChartController extends Controller
         $image = url('img/og-dawg.png');
 
         return view('pages.chart', [
-            'title' => 'Chart for Blockchain $DAWG',
-            'description' => 'View the DexScreener chart for Blockchain $DAWG. Look nowhere else for live updates on Robert trading activity..',
+            'title' => 'Chart for $DAWG on Solana',
+            'description' => 'View the DexScreener chart for $DAWG on Solana. Look nowhere else for live updates on UnderDawg trading activity..',
             'canonical' => route('chart'),
             'ogimage' => $image === null ? url('img/og-dawg.png') : $image,
         ]);
