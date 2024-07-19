@@ -15,7 +15,7 @@
     <link href="/css/app.css" rel="stylesheet">
 
     <title>{{ $title ?? '$DAWG on Solana' }}</title>
-    <meta name="description" content="{{ $description ?? '$DAWG on Solana - We're just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
+    <meta name="description" content="{{ $description ?? '$DAWG on Solana - We\'re just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
     <link rel="canonical" href="{{ $canonical ?? 'https://underdawg.club' }}" />
     <link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
@@ -26,13 +26,13 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{ $title ?? '$DAWG on Solana' }}" />
-    <meta property="og:description" content="{{ $description ?? '$DAWG on Solana - We're just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
+    <meta property="og:description" content="{{ $description ?? '$DAWG on Solana - We\'re just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
     <meta property="og:url" content="{{ $canonical ?? 'https://underdawg.club' }}" />
     <meta property="og:site_name" content="$DAWG on Solana" />
     <meta property="og:image" content="{{ $ogimage ?? 'https://dawgclub.org/img/og-dawg.png' }}" />
     <meta property="article:publisher" content="https://www.facebook.com/drewroberts" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="{{ $ogdescription ?? '$DAWG on Solana - We're just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
+    <meta name="twitter:description" content="{{ $ogdescription ?? '$DAWG on Solana - We\'re just a bunch of UnderDawgs ready to upset the Cabal.' }}" />
     <meta name="twitter:title" content="{{ $title ?? '$DAWG on Solana' }}" />
 
     <!-- CSRF Token -->
