@@ -12,7 +12,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="flex flex-1 justify-end md:justify-center">
+                            <div class="flex flex-1 justify-end md:justify-center">
                                 <div class="pointer-events-auto md:hidden" x-data="{ open: false }">
                                     <button @click="showModal = true" class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20" type="button" aria-expanded="false">
                                         Menu
@@ -32,9 +32,7 @@
                                             </div>
                                             <nav class="mt-6">
                                                 <ul class="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-                                                    <li><a class="block py-2" href="{{ route('home') }}">Home</a></li>    
-                                                    <li><a class="block py-2" href="{{ route('about') }}">About</a></li>
-                                                    <li><a class="block py-2" href="/whitepaper.pdf">Whitepaper</a></li>
+                                                    <li><a class="block py-2" href="{{ route('home') }}">Home</a></li>
                                                     <li><a class="block py-2" href="{{ route('memes') }}">Memes</a></li>
                                                     <li><a class="block py-2" href="{{ route('chart') }}">Chart</a></li>
                                                 </ul>
@@ -47,13 +45,11 @@
                                     <ul class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10">
                                         {{-- <li><a class="relative block px-3 py-2 transition text-teal-500 dark:text-teal-400" href="{{ route('about') }}">About<span class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"></span></a></li> --}}
                                         <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="{{ route('home') }}">Home</a></li>
-                                        <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="{{ route('about') }}">About</a></li>
-                                        <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="/whitepaper.pdf">Whitepaper</a></li>
                                         <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="{{ route('memes') }}">Memes</a></li>
                                         <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" href="{{ route('chart') }}">Chart</a></li>
                                     </ul>
                                 </nav>
-                            </div> -->
+                            </div>
                             <div class="flex justify-end md:flex-1">
                                 <div class="pointer-events-auto">
                                     <button @click="darkMode = !darkMode" type="button" aria-label="Switch to light theme" class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">

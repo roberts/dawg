@@ -7,8 +7,8 @@
                 <div class="relative px-4 sm:px-8 lg:px-12">
                     <div class="mx-auto max-w-2xl lg:max-w-5xl">
                         <header>
-                            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">You can be anyBobby you wanna be</h1>
-                            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">Feel free to use the best memes in the history of Bob wherever you want on the interwebs:</p>
+                            <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">UnderDawg Memes</h1>
+                            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">Feel free to use these UnderDawg memes in your mission to upset the cabal:</p>
                         </header>
 
                         @foreach ($memeTypes as $meme_type)

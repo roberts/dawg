@@ -13,7 +13,7 @@
                             <div class="lg:order-first lg:row-span-2">
                                 <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">$DAWG on Solana</h1>
                                 <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-                                    <p>Just a bunch of UnderDawgs ready to upset the Cabal. It's us vs them. Up and comers vs gatekeepers. This ISN'T pvp. It's UnderDawgs vs Cabal. Who you gonna bet on? <a class="text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" href="/chart">View chart</a>.</p>
+                                    <p>Just a bunch of UnderDawgs ready to upset the Cabal. It's us vs them. Up and comers vs gatekeepers. This ISN'T pvp. It's UnderDawgs vs Cabal. Who you gonna bet on?</p>
                                     <p>Contract Address:</p>
                                     <p>69arqapGoXLW1Fv8UHtNUpkE4p1HPZ2wPbQbzbnJ7vD5</p>
                                     <div class="mt-6 flex gap-6 pb-16">
