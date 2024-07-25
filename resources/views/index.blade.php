@@ -64,7 +64,13 @@
                                         <li>10% Expansion</li>
                                         <li>60% liquidity</li>
                                     </ul>
-                                    <p>This ISN'T Player vs Player. This is Player pump Player.</p>
+                                    <p class="pb-8">This ISN'T Player vs Player. This is Player pump Player.</p>
+
+                                    <h2 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-2xl dark:text-zinc-100">How to Buy $DAWG</h2>
+                                    <p><span class="font-bold text-zinc-800 dark:text-zinc-100">1. Create a Wallet:</span> Download Solflare or Phantom on Solana from the app store or google play store for free. Desktop users, download the google chrome extension.</p>
+                                    <p><span class="font-bold text-zinc-800 dark:text-zinc-100">2. Get some SOL:</span> Have SOL in your wallet to swap to $DAWG. If you don't have any SOL, you can buy directly on Solflare or Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.</p>
+                                    <p><span class="font-bold text-zinc-800 dark:text-zinc-100">3. Visit Raydium or Jupiter:</span> In your wallet browser visit <a class=" text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=69arqapGoXLW1Fv8UHtNUpkE4p1HPZ2wPbQbzbnJ7vD5">Raydium.io</a> or <a class=" text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500" href="https://jup.ag/swap/SOL-69arqapGoXLW1Fv8UHtNUpkE4p1HPZ2wPbQbzbnJ7vD5">Jup.ag</a> and connect your wallet. Sign the request when it prompts you for the wallet signature.</p>
+                                    <p><span class="font-bold text-zinc-800 dark:text-zinc-100">4. Swap SOL for $DAWG:</span> Select to exchange Solana and receive $DAWG using the official contract address. Swap SOL for $DAWG. We have ZERO taxes so you don't need to worry about buying with a specific slippage, although you may need to up the slippage during times of market volatility.</p>
                                 </div>
                             </div>
                             <div class="lg:pl-20">
